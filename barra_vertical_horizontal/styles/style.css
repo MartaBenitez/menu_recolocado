@@ -1,0 +1,26 @@
+li{
+	display: inline;
+	background-color: lightgray;
+	padding: 10px 15px;
+	cursor: pointer;
+	border: solid 1px black;
+}
+li:hover{
+	background-color: gray;
+}
+li a{
+	text-decoration: none;
+	color: black;
+}
+@media screen and (max-width: 900px){
+	div{
+		float: left;
+	}
+	li{
+		display: block;
+	}
+	p{
+		margin-left: 200px;
+	}
+
+}
